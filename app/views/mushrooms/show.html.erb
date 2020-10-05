@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Latin name:</strong>
+  <%= @mushroom.latin_name %>
+</p>
+
+<p>
+  <strong>Common name:</strong>
+  <%= @mushroom.common_name %>
+</p>
+
+<p>
+  <strong>Confused with:</strong>
+  <%= @mushroom.confused_with %>
+</p>
+
+<p>
+  <strong>Habitat:</strong>
+  <%= @mushroom.habitat %>
+</p>
+
+<p>
+  <strong>Region:</strong>
+  <%= @mushroom.region %>
+</p>
+
+<p>
+  <strong>Fairy rings:</strong>
+  <%= @mushroom.fairy_rings %>
+</p>
+
+<p>
+  <strong>Characteristics:</strong>
+  <%= @mushroom.characteristics %>
+</p>
+
+<p>
+  <strong>Img url:</strong>
+  <%= @mushroom.img_url %>
+</p>
+
+<%= link_to 'Edit', edit_mushroom_path(@mushroom) %> |
+<%= link_to 'Back', mushrooms_path %>

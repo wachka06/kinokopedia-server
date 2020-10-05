@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  latin_name: MyString
+  common_name: MyString
+  confused_with: MyString
+  habitat: MyString
+  region: MyString
+  fairy_rings: false
+  characteristics: MyString
+  img_url: MyString
+
+two:
+  latin_name: MyString
+  common_name: MyString
+  confused_with: MyString
+  habitat: MyString
+  region: MyString
+  fairy_rings: false
+  characteristics: MyString
+  img_url: MyString
